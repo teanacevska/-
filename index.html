@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8" />
+    <title>Теа Нацевска</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("images/cvekje.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #ffffff;
+            height: 100px;
+            border-bottom: 3px dashed #cf969f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 40px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: #cf969f;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .navbar ul li a:hover {
+            color: white;
+            background-color: #cf969f;
+        }
+
+        .bio-container {
+            background-color: rgba(255, 255, 255, 0.85);
+            color: #cf4e79;
+            border: 2px solid #cf4e79;
+            border-radius: 15px;
+            max-width: 600px;
+            margin: 80px auto;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0px 0px 15px white;
+
+        }
+
+        .bio-container h2 {
+            margin-top: 0;
+            font-size: 28px;
+        }
+
+        .bio-container p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .slika{
+            background-image: url("images/tea.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            border:3px solid #cf969f;
+            border-radius: 10px;
+        }
+        .prikazna{
+            color:#cf4e79;
+            background-color:white;
+            text-align: center;
+            width: 700px;
+            height: 50px;
+            margin: auto;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: -30px;
+            border: 3px solid #cf969f;
+            box-shadow: 10px 10px 10px white;
+
+        }
+
+        .bebe{
+            background-color: white;
+            color: #cf4e79;
+            width:400px;
+            height:400px;
+            margin: auto;
+            border-radius: 10px;
+            border: 2px solid #cf4e79;
+        }
+        .bebe h3{
+            text-align: center;
+        }
+        .vozrasna{
+            background-color: white;
+            color: #cf4e79;
+            width:400px;
+            height:400px;
+            margin: auto;
+            border-radius: 10px;
+            border: 2px solid #cf4e79;
+        }
+        .vozrasna h3{
+            text-align: center;
+        }
+        .slika-vozrasna{
+            background-image: url("images/18 bday.jpg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            width:280px;
+            height:280px;
+            margin: auto;
+        }
+        .slikabebe{
+            background-image: url("images/mala jas.jpg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            width:250px;
+            height:300px;
+            margin: auto;
+        }
+        .sliki-vo-red {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 30px auto;
+            flex-wrap: wrap;
+        }
+        #kontakt {
+            text-align: center;
+            padding: 25px 20px;
+            background-color: white;
+            border-top: 4px dashed #cf969f;
+            color:#cf969f;
+        }
+
+        #kontakt h3 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .kontakti {
+            list-style: none;
+            padding: 0;
+        }
+
+        .kontakti li {
+            margin: 10px 0;
+        }
+
+        .kontakti a {
+            color: #cf969f;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .kontakti a:hover {
+            color: white;
+            background-color: #cf969f;
+            border-radius: 10px;
+        }
+
+
+       </style>
+</head>
+<body>
+
+<div class="navbar">
+    <ul>
+        <li><a href="obrazovanie.html">Образование</a></li>
+        <li><a href="vestini.html">Вештини</a></li>
+        <li><a href="hobi.html">Хоби</a></li>
+        <li><a href="patuvanja.html">Патувања</a></li>
+    </ul>
+</div>
+
+<div class="bio-container">
+    <h2>Теа Нацевска</h2>
+    <p>Имам 19 години и сум од Куманово. Јас сум креативна, амбициозна, емотивна и трпелива личност. Сакам да патувам, да се дружам и да стекнувам нови пријатели.</p>
+    <div class="slika">
+
+    </div>
+</div>
+<div class="prikazna">
+    <h3>Мојата приказна</h3>
+</div>
+
+<div class="sliki-vo-red">
+    <div class="bebe">
+        <h3>28.12.2005 година<br> Денот кога започна мојата приказна.</h3>
+        <div class="slikabebe"></div>
+    </div>
+
+    <div class="vozrasna">
+        <h3>28.12.2024 година<br> Денот кога станав дел од светот на возрасните.</h3>
+        <div class="slika-vozrasna"></div>
+    </div>
+</div>
+<section id="kontakt">
+    <h3>Контакт</h3>
+    <p>Може да ме контактирате преку следниве платформи:</p>
+    <ul class="kontakti">
+        <li><a href="mailto:teanacevska@yahoo.com" target="_blank">📧 Email</a></li>
+        <li><a href="https://instagram.com/teanacevska" target="_blank">📸 Instagram</a></li>
+    </ul>
+</section>
+
+</body>
+</html>
